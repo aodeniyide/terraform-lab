@@ -36,21 +36,25 @@
             init               Initialize a Terraform working directory
             output             Read an output from a state file
             plan               Generate and show an execution plan
-            providers          Prints a tree of the providers used in the configuration
-            push               Upload this Terraform module to Atlas to run
-            refresh            Update local state file against real resources
-            show               Inspect Terraform state or plan
-            taint              Manually mark a resource for recreation
-            untaint            Manually unmark a resource as tainted
-            validate           Validates the Terraform files
-            version            Prints the Terraform version
-            workspace          Workspace management
-        
-        All other commands:
-            debug              Debug output management (experimental)
-            force-unlock       Manually unlock the terraform state
-            state              Advanced state management
+            
+            ......
+
 
     ```
     
 2) Configuration:
+   1) Export `access-key` and `secret-key` as variables so we can authenticate with aws to stand up our resources. 
+   
+```
+$ export AWS_ACCESS_KEY_ID="anaccesskey"
+$ export AWS_SECRET_ACCESS_KEY="asecretkey"
+$ export AWS_DEFAULT_REGION="us-west-2"
+
+```
+
+
+Order of Labs
+================================================================
+1) iam-user
+2) s3
+3) ec2
