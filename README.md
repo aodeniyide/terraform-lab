@@ -58,3 +58,4 @@ Order of Labs
 1) iam-user
 2) s3
 3) ec2
+4) modules

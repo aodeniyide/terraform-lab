@@ -1,5 +1,11 @@
-# terraform-lab
+# IAM-USER
 
-1) Install the latest version of terraform
+1) `cd iam_user/`
 
-`wget https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip`
+2) `terraform init`
+
+3) `terraform plan`
+
+4) `terraform apply`
+
+5) `terraform destroy`
