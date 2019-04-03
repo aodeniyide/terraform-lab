@@ -3,7 +3,7 @@ variable "aws_region" {
   default     = "us-west-2"
 }
 
-# Ubuntu Precise 12.04 LTS (x64)
+# Ubuntu xenial 16.04 LTS (x64)
 variable "aws_amis" {
   default = {
     "eu-west-1" = "ami-08eb05c142193af92"
