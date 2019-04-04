@@ -12,4 +12,7 @@ variable "aws_amis" {
   }
 }
 
-variable "subnet_id" {}
+#M56EBgFxolKS55wHHnBUVcjk18vfcr0/Thn0Dksw
+
+variable "name" {}
+variable "key_pair_name" {}

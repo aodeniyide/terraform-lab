@@ -8,4 +8,10 @@
 
 4) `terraform apply`
 
-5) `terraform destroy`
+
+This will create a user based on the supplied name given
+
+To verify, navigate to your console, click on the newly created user.
+
+
+`terraform destroy`

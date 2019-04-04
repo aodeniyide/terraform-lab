@@ -1,6 +1,6 @@
 # S3
 
-1) `cd ec2/`
+1) `cd s3/`
 
 2) `terraform init`
 

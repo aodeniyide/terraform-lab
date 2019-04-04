@@ -1,12 +1,16 @@
-# Ec2-Instance
+# EC2-Instance
 
-This lab will stand up an EC2 instance in the default VPC 
+This lab will stand up an EC2 instance in the default VPC. We will then update the default security group to 
+allow ssh so we can connect.  
+
+
+
 
 1) `cd ec2/`
 
 2) `terraform init`
 
-3) `terraform plan`
+3) `terraform plan`  -> `View plan and see what terraform is about to do`
 
 4) `terraform apply`
 
