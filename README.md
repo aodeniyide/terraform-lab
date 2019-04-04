@@ -51,6 +51,8 @@ Install terraform
    
    4. export PATH="$PATH:$HOME"
    
+   5. source ~/.profile
+   
    5) Run Terraform command to validate. 
        
        $ terraform 
@@ -79,8 +81,10 @@ Install terraform
 
 
    ```
-    
-#Configure Acess Credentials
+
+
+
+#Configure ACcess Credentials
 
 1) Export `access-key` and `secret-key` as variables so we can authenticate with aws to stand up our resources. 
    
