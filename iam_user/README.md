@@ -15,3 +15,5 @@ To verify, navigate to your console, click on the newly created user.
 
 
 `terraform destroy`
+
+Thanks
